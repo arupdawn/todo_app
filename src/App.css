@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  background-color: rgb(165, 165, 165);
+  font-size:1.5em;
+}
+
+.App2{
+  background-color: #F2F4F7;
+  height: 880px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 75px;
+  padding-top: 15px;
+  color: white;
+  text-align: left;
+}
+
+.App-title {
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: left;
+  font-size: 1.4em;
+  font-family: 'Cinzel', serif;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+button{
+  float: right;
+  padding: 0px;
+  background-color: rgb(75, 183, 197);
+}
