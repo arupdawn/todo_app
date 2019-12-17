@@ -2,6 +2,7 @@
   text-align: center;
   background-color: rgb(165, 165, 165);
   font-size:1.5em;
+  font-family: 'Audiowide', cursive;
 }
 
 .App2{
@@ -38,4 +39,41 @@ button{
   float: right;
   padding: 0px;
   background-color: rgb(75, 183, 197);
+}
+
+.MainContent{
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right:50px;
+  text-align: left;
+  background-color: #F2F4F7;
+}
+
+.MainList{
+  margin-top: 20px;
+}
+
+.fa-dot-circle{
+  font-size: 0.7em;
+  margin-right: 8px;
+}
+
+hr{
+  height: 1px; 
+  background: rgb(207, 191, 191); 
+}
+
+.fa-plus-square{
+  font-size:24px;
+  padding: 0px;
+  float: right;
+}
+
+@media only screen and (min-width: 701px) {
+  .App2{
+    background-color: #F2F4F7;
+    height: 880px; 
+    margin-left: 11%;
+    margin-right: 11%;
+  }
 }
