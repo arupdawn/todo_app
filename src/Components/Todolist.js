@@ -32,7 +32,12 @@ class Todolist extends Component {
       if(e.charCode === 13){
           e.preventDefault();
           let newarr = this.state.arr;
-          newarr.push(this.state.textVal);
+          if(this.state.textVal === ""){
+              alert("The list item cannot be blank");
+          }
+          else{
+              newarr.push(this.state.textVal);
+          }
   
           this.setState({
               textVal:'',
@@ -79,7 +84,7 @@ class Todolist extends Component {
             }
                 <div id="copp" className="collapse">
                         <i className="fas fa-dot-circle"></i>{" "}{}
-                        <input type="text" value={this.state.textVal} placeholder="Enter your list items"
+                        <input type="text" className="Textbox" value={this.state.textVal} placeholder="Enter your list items"
                         onChange={this.onChangeText.bind(this)} onKeyPress={this.AddE.bind(this)} required/>
                         
                         <hr></hr>

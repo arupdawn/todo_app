@@ -77,3 +77,8 @@ hr{
     margin-right: 11%;
   }
 }
+
+.Textbox{
+   border:none;
+   background: #F2F4F7;
+}
